@@ -1,16 +1,3 @@
-- name: Install Ubuntu-only core packages
-  package: name={{ item }}
-  when: is_ubuntu
-  with_items:
-    - build-essential
-    - openssh-server
-    - smbclient
-    - xsel
-
-- name: Install ubuntu-restricted-extras
-  package: name=ubuntu-restricted-extras
-  when: is_ubuntu
-
 - name: Install OSX-only core packages
   package: name={{ item }}
   when: is_osx
@@ -55,7 +42,6 @@
   with_items:
     - appcleaner
     - day-o
-    - slate
     # https://github.com/sindresorhus/quick-look-plugins
     - betterzipql
     - qlcolorcode

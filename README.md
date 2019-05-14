@@ -1,8 +1,8 @@
-# machine [![Build Status](https://travis-ci.org/caarlos0/machine.svg?branch=master)](https://travis-ci.org/caarlos0/machine) [![SayThanks.io](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=flat-square)](https://saythanks.io/to/caarlos0)
+# machine
 
 Machine setup, powered by Ansible.
 
-I'm splitting my [dotfiles](https://github.com/caarlos0/dotfiles) repo
+I'm splitting my [dotfiles](https://github.com/MaksimShakavin/dotfiles) repo
 in two repos:
 
 - dotfiles now handles only configuration

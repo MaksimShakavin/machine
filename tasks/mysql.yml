@@ -1,0 +1,3 @@
+- name: Install Mysql
+  package: name=mysql
+  when: is_osx

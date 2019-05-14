@@ -1,0 +1,3 @@
+- name: Install Vivaldi
+  homebrew_cask: name=vivaldi
+  when: is_osx
